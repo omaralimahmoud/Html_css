@@ -1,0 +1,187 @@
+
+    
+
+
+
+
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meber
+{
+    
+    background-color:#09c;
+width: 25%;
+position:relative;
+text-align:center;
+border:solid 3px red;
+color:white;
+overflow:hidden;
+float:left;
+}
+.meber-cation
+{
+    background-color:rgba(42,63,85,0.5);
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition:opacity 1s, ;
+   
+    transition:transform 1s;
+    
+}
+.meber img
+{
+width:100%;
+transition:transform 1s;
+}
+.meber h2
+{
+padding:15px;
+background-color:rgb(42,63,85,0.8);
+transition:2s 5s left ;
+position:relative;
+left: 100%;
+
+}
+.meber p
+{
+    padding:15px;
+    font-size:20px;
+    left: 100%;
+    position:relative;
+    transition:left 6s
+}
+.meber:hover .meber-cation
+{
+opacity:1;
+transform:rotate(360deg);
+/** transition: duration delay property function**/
+
+}
+.meber:hover img
+{
+    transform:scale(1.3,1.3)
+}
+.meber:hover h2
+{
+    left:0px;
+}
+.meber:hover p
+{
+    left:0px;
+}
+.clr
+{
+    clear:both;
+}
+.meber-cook
+{
+    background-color: tomato;
+    width: 25%;
+    position:relative;
+    text-align:center;
+    border:solid 4px  black;
+    color:white;
+    overflow:hidden;
+}
+
+.meber-phote
+
+{
+    background-color:rgba(55,85,33,0.5);
+    position:absolute;
+top:0px;
+right: 0px;
+widows: 100%;
+height:100%;
+opacity: 0;
+transition:opacity 1s;
+transition:transform 2s
+}
+
+.meber-cook img
+{
+    width: 100%;
+    transition:transform 1s;
+}
+.meber-cook h2
+{
+    background-color:rgb(0,0,255,0.5);
+    padding:20px;
+right:100%;
+transition: 6s;
+position: relative;
+}
+
+.meber-cook:hover .meber-phote
+
+{
+    opacity:1;
+    transform:rotate(360deg)
+}
+
+.meber-cook:hover img
+
+{
+    transform:scale(1.3,1.3)
+}
+
+.meber-cook:hover h2
+{
+    right:0;
+    position: relative;
+}
+
+.meber-cook:hover p
+{
+    right: 0px;
+}
+
+.meber-cook p
+{
+    padding:20px;
+    font-size:20px;
+    right: 100%;
+    position: relative;
+transition: 6s;
+}
+.nav
+{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: brown;
+    top: 0;
+    left: 0;
+    right: 0;
+}
